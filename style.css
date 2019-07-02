@@ -1,0 +1,92 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  overflow: hidden;
+  
+  background: linear-gradient(#2C30FF, #0099FF);
+  
+}
+
+.app{
+ background: #fff;
+ padding: 20px;
+ width: 500px;
+ margin: 0 auto;
+ box-shadow: 0 1px 30px rgb(0,0,0,0,14), 0 0px 0px 0 rgb(0, 0,0,.12),
+ 0 0px 0px 0px rgb(0,0,0,.3);
+ border-radius: 10px;
+  
+}
+
+.app__header{
+  padding: 20px;
+  text-align: center;
+
+}
+
+.app__content{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__footer{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.btn{
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #F8D46A; 
+  border-radius: 50px;
+  position: absolute;
+  z-index: 1;
+}
+
+.btn:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.hide{
+  font-size: 18px;
+  text-align: center;
+  display: none!important;
+}
+.game{
+  background-color: #CCCCCC;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 1px solid  #CCCCCC;
+}
+
+label{
+  color: #929292;
+  font-size: 14px;
+}
+
+input{
+  border: 1.2px solid #929292;
+  margin-top: 5px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+
+
+
