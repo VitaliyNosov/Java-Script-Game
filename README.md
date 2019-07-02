@@ -10,5 +10,5 @@
 
 <p>Ready project on the server:<p> 
 	
-<p>https://hungry-banach-d8f0fe.netlify.com</p>
+<p>https://priceless-booth-840c15.netlify.com/</p>
 
